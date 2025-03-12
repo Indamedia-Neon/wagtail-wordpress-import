@@ -30,7 +30,7 @@ def filter_bleach_clean(html, options=None):
     cleaned = Cleaner(
         tags=CONF_ALLOWED_TAGS,
         attributes=CONF_ALLOWED_ATTRIBUTES,
-        styles=CONF_ALLOWED_STYLES,
+        # styles=CONF_ALLOWED_STYLES,
     )
 
     cleaned_html = cleaned.clean(html)

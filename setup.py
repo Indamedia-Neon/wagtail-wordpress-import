@@ -38,6 +38,7 @@ setup(
         "Framework :: Django :: 4.0",
         "Framework :: Django :: 4.1",
         "Framework :: Django :: 5.1",
+        "Framework :: Django :: 5.2",
         "Framework :: Wagtail",
         "Framework :: Wagtail :: 2",
         "Framework :: Wagtail :: 3",
@@ -45,8 +46,8 @@ setup(
         "Framework :: Wagtail :: 6",
     ],
     install_requires=[
-        "django==5.1",
-        "wagtail==6.3.2",
+        "django==5.2",
+        "wagtail==6.4.1",
         "lxml==5.3.1",
         "bleach==6.2.0",
         "prettytable==3.15.1",

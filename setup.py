@@ -47,7 +47,7 @@ setup(
     ],
     install_requires=[
         "django==5.2",
-        "wagtail==6.4.1",
+        "wagtail==7.1.1",
         "lxml==5.3.1",
         "bleach==6.2.0",
         "prettytable==3.15.1",
